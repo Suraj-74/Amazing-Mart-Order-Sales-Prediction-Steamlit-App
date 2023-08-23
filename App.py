@@ -14,7 +14,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 # Load the dataset
-df = pd.read_csv("C:/Users/Admin/Desktop/Internship/merged_data.csv")
+df = pd.read_csv("merged_data.csv")
 
 
 columns_to_drop=['Order ID','Order Date','Ship Date','Customer Name','Sales']
